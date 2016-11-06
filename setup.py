@@ -2,17 +2,17 @@
 import sys
 sys.path.append('./src')
 from distutils.core import setup
-from pyempty import __version__
+from urbanbackend import __version__
 
-setup(name='pyempty',
+setup(name='urbanbackend',
       version=__version__,
       description='empty python project template',
       long_description=open("README.md").read(),
-      author='onlytiancai',
-      author_email='onlytiancai@gmail.com',
+      author='qmShen',
+      author_email='joyshen06@gmail.com',
       packages=['pyempty'],
-      package_dir={'pyempty': 'src/pyempty'},
-      package_data={'pyempty': ['stuff']},
+      package_dir={'urbanbackend': 'src/urbanbackend'},
+      package_data={'urbanbackend': ['stuff']},
       license="Public domain",
       platforms=["any"],
-      url='https://github.com/onlytiancai/pyempty')
+      url='https://github.com/qmShen/UrbanBackend')
